@@ -1,0 +1,35 @@
+# ==========================================================================
+# LIBRERÍAS EXTERNAS DEL PROYECTO HOSPITAL
+# ==========================================================================
+
+pyodbc          # sirve para conectar Python con SQL Server y ejecutar consultas.
+matplotlib      # sirve para generar los gráficos y estadísticas del Dashboard.
+tkcalendar      # sirve para mostrar el calendario desplegable en los formularios.
+pillow          # sirve para procesar y mostrar imágenes o logos (PNG/JPG).
+openpyxl        # sirve para crear y exportar reportes de datos a archivos Excel.
+fpdf2           # sirve para generar facturas y reportes oficiales en formato PDF.
+
+# ==========================================================================
+# INSTRUCCIONES DE INSTALACIÓN (PASO A PASO)
+# ==========================================================================
+# 
+# PASO 1: Abrir la terminal en la carpeta del proyecto.
+# Si usas el CMD de Windows, navega hasta la carpeta del proyecto:
+# Ejemplo: cd "C:\Usuarios\Angel\Documentos\Hospital"
+# 
+# *Tip en VS Code: Haz clic derecho sobre la carpeta 'Hospital' en el 
+#  explorador y selecciona "Open in Integrated Terminal".
+#
+# PASO 2: Instalar todas las librerías de este archivo de una sola vez:
+# Ejecuta: pip install -r requirements.txt
+#
+# PASO 3: (Opcional) Si deseas eliminar librerías innecesarias (como pygame):
+# Ejecuta: pip uninstall pygame -y
+#
+# PASO 4: (Opcional) Si la terminal muestra un aviso amarillo de actualización:
+# Ejecuta: python.exe -m pip install --upgrade pip
+#
+#
+# Con Python 3.9 o versiones posteriores, instala el google-genai paquete con el siguiente comando pip:
+# pip install -q -U google-genai
+# ==========================================================================
